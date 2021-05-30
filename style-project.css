@@ -1,0 +1,85 @@
+.container{
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 130px;
+}
+
+.title{
+    margin: 0;
+    padding: 30px;
+    font-family: century, sans-serif;
+    font-size: 80px;
+    color: gray;
+    text-shadow: 0px 0px 10px rgb(167, 167, 167) ;
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to right, rgb(129, 188, 207), white);
+    border-image-slice: 1;
+}
+
+
+.links{
+    display: grid;
+    grid-template-columns: 120px;
+    padding: 40px;
+    text-align: start;
+    line-height: 60px;
+    font-family: century, sans-serif;
+    font-size: 18px;
+    color: grey;
+    text-transform: capitalize;
+    border-right: solid 4px lightgray;
+    justify-content: space-between;
+}
+
+.links a{
+    color: gray;
+}
+
+.link-column{
+    display: grid;
+    grid-template-columns: 350px 40px 0.9fr;
+    margin-left: 50px;
+}
+
+.contacts{
+    display: grid;
+    grid-template-rows: 20px 20px;
+    grid-template-columns: 1fr;
+    line-height: 40px;
+    font-family: century, sans-serif;
+    font-size: 14px;
+    color: grey;
+    text-transform: capitalize;
+}
+
+.contacts a{
+    color: gray;
+    line-height: 20px;
+    border-bottom:  solid lightgray;
+    border-image: linear-gradient( to right , white, lightgray);
+}
+
+.copyrights{
+    display: grid;
+    grid-template-rows: 50px;
+    padding: 30px;
+    font-family: century, sans-serif;
+    font-size: 14px;
+    color: gray;
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    background-image: linear-gradient(to right, white, rgb(209,209,209));
+}
+
+
+
+
+
+
+
+
+
+
+/*Portfolio Styles*/
+

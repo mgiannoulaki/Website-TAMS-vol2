@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Transportation and Ambient Mobility Systems</title>
+<link rel="stylesheet" href="style-project.css">
+</head>
+
+<body style="background-color: rgb(255, 255, 255);">
+    <div class="container">
+        <div class="title">
+            TAMS
+        </div>
+        <div class="navigation-bar">
+
+            <div class="link-column">
+            
+                <div class="project-frame">
+                    
+                    
+                    <div class="content-wrapper">
+                        <div class="photo-collage">
+                            <a target="_blank" href="/">
+                              <img src="/" alt="Alimos" width="600" height="400">
+                            </a>
+                            <div class="desc">Add a description of the image here</div>
+                        </div> 
+
+                        <div class="gallery">
+                            <a target="_blank" href="img_5terre.jpg">
+                              <img src="/" alt="Class" width="600" height="400">
+                            </a>
+                            <div class="desc">Add a description of the image here</div>
+                        </div>  
+
+                        <div class="gallery">
+                            <a target="_blank" href="img_5terre.jpg">
+                              <img src="/" alt="Contact" width="600" height="400">
+                            </a>
+                            <div class="desc">Add a description of the image here</div>
+                        </div>   
+                        <div class="gallery">
+                            <a target="_blank" href="img_5terre.jpg">
+                              <img src="/" alt="Education" width="600" height="400">
+                            </a>
+                            <div class="desc">Add a description of the image here</div>
+                        </div>
+                        <div class="gallery">
+                            <a target="_blank" href="img_5terre.jpg">
+                              <img src="/" alt="Facilities" width="600" height="400">
+                            </a>
+                            <div class="desc">Add a description of the image here</div>
+                        </div>      
+                    </div>
+
+
+                    <div class="links">
+                        <a href="index.html"  style= "text-decoration: none";>Αρχική</a>
+                        <a href="/" style= "text-decoration: none";>Ποιοι είμαστε</a>
+                        <a href="projects.html" style= "text-decoration: none";>Τι κάνουμε</a>
+                        <a href="/" style= "text-decoration: none";>Ανακοινώσεις</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contacts">
+                <a href="mail.to:zoi.christoforou@upatras.gr" target="_blank" style= "text-decoration: none";> &#9993;   zoi.christoforou@upatras.gr</a>
+                <a href="https://www.google.com/maps/place/Department+of+Civil+Engineering/@38.2894346,21.7907234,17.2z/data=!4m5!3m4!1s0x135e4bbf9a2257a9:0xc76140e5355294c!8m2!3d38.288949!4d21.7908591" style="text-decoration:none" target="_blank"> 	&#xf13d;  	&#xf1ad;  Τμήμα Πολιτικών Μηχανικών
+                            Πανεπιστήμιο Πατρών</a>
+            </div>
+            <div class="copyrights">
+                &#174;  Transportation and Ambient Mobility Systems, Copyright 2021  &#169; 
+                       
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+    
+        portfolioItems.forEach(portfolioItem => {
+            portfolioItem.addEventListener('mouseover',() => {
+                portfolioItem.childNodes[1].classList.add('img-darken');
+            })    
+    
+            portfolioItem.addEventListener('mouseout', () => {
+                portfolioItem.childNodes[1].classList.remove('img-darken');
+            })
+    
+        })
+    </script>
+</body>
